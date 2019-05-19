@@ -13,6 +13,7 @@
 		0042C8052272A50D0010E259 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0042C8032272A50D0010E259 /* Main.storyboard */; };
 		0042C8102272A50D0010E259 /* EggTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0042C80F2272A50D0010E259 /* EggTimerTests.swift */; };
 		0042C81B2272A50D0010E259 /* EggTimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0042C81A2272A50D0010E259 /* EggTimerUITests.swift */; };
+		007457B022920475006A91EF /* PrefsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007457AF22920475006A91EF /* PrefsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		0042C8162272A50D0010E259 /* EggTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EggTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0042C81A2272A50D0010E259 /* EggTimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggTimerUITests.swift; sourceTree = "<group>"; };
 		0042C81C2272A50D0010E259 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		007457AF22920475006A91EF /* PrefsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				0042C7FD2272A50D0010E259 /* AppDelegate.swift */,
 				0042C7FF2272A50D0010E259 /* ViewController.swift */,
+				007457AF22920475006A91EF /* PrefsViewController.swift */,
 				0042C8012272A50D0010E259 /* Assets.xcassets */,
 				0042C8032272A50D0010E259 /* Main.storyboard */,
 				0042C8062272A50D0010E259 /* Info.plist */,
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0042C8002272A50D0010E259 /* ViewController.swift in Sources */,
+				007457B022920475006A91EF /* PrefsViewController.swift in Sources */,
 				0042C7FE2272A50D0010E259 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,6 +511,7 @@
 				0042C8212272A50D0010E259 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0042C8222272A50D0010E259 /* Build configuration list for PBXNativeTarget "EggTimerTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +520,7 @@
 				0042C8242272A50D0010E259 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0042C8252272A50D0010E259 /* Build configuration list for PBXNativeTarget "EggTimerUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +529,7 @@
 				0042C8272272A50D0010E259 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
