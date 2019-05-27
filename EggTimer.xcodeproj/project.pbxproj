@@ -14,6 +14,7 @@
 		0042C8102272A50D0010E259 /* EggTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0042C80F2272A50D0010E259 /* EggTimerTests.swift */; };
 		0042C81B2272A50D0010E259 /* EggTimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0042C81A2272A50D0010E259 /* EggTimerUITests.swift */; };
 		007457B022920475006A91EF /* PrefsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007457AF22920475006A91EF /* PrefsViewController.swift */; };
+		007457B622921839006A91EF /* EggTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007457B522921839006A91EF /* EggTimer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,8 @@
 		0042C81A2272A50D0010E259 /* EggTimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggTimerUITests.swift; sourceTree = "<group>"; };
 		0042C81C2272A50D0010E259 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		007457AF22920475006A91EF /* PrefsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefsViewController.swift; sourceTree = "<group>"; };
+		007457B1229214DE006A91EF /* EggTimer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EggTimer.entitlements; sourceTree = "<group>"; };
+		007457B522921839006A91EF /* EggTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggTimer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				0042C7FC2272A50D0010E259 /* EggTimer */,
+				007457B42292154B006A91EF /* Supporting Files */,
 				0042C80E2272A50D0010E259 /* EggTimerTests */,
 				0042C8192272A50D0010E259 /* EggTimerUITests */,
 				0042C7FB2272A50D0010E259 /* Products */,
@@ -98,11 +102,12 @@
 			isa = PBXGroup;
 			children = (
 				0042C7FD2272A50D0010E259 /* AppDelegate.swift */,
-				0042C7FF2272A50D0010E259 /* ViewController.swift */,
-				007457AF22920475006A91EF /* PrefsViewController.swift */,
+				007457B22292150B006A91EF /* View Controllers */,
+				007457B32292153A006A91EF /* Model */,
 				0042C8012272A50D0010E259 /* Assets.xcassets */,
 				0042C8032272A50D0010E259 /* Main.storyboard */,
 				0042C8062272A50D0010E259 /* Info.plist */,
+				007457B1229214DE006A91EF /* EggTimer.entitlements */,
 			);
 			path = EggTimer;
 			sourceTree = "<group>";
@@ -123,6 +128,30 @@
 				0042C81C2272A50D0010E259 /* Info.plist */,
 			);
 			path = EggTimerUITests;
+			sourceTree = "<group>";
+		};
+		007457B22292150B006A91EF /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0042C7FF2272A50D0010E259 /* ViewController.swift */,
+				007457AF22920475006A91EF /* PrefsViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		007457B32292153A006A91EF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				007457B522921839006A91EF /* EggTimer.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		007457B42292154B006A91EF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +224,11 @@
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = PF856X4CQ8;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
 					};
 					0042C80A2272A50D0010E259 = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -262,6 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0042C8002272A50D0010E259 /* ViewController.swift in Sources */,
+				007457B622921839006A91EF /* EggTimer.swift in Sources */,
 				007457B022920475006A91EF /* PrefsViewController.swift in Sources */,
 				0042C7FE2272A50D0010E259 /* AppDelegate.swift in Sources */,
 			);
@@ -406,6 +441,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = EggTimer/EggTimer.entitlements;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = PF856X4CQ8;
 				INFOPLIST_FILE = EggTimer/Info.plist;
@@ -420,6 +456,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = EggTimer/EggTimer.entitlements;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = PF856X4CQ8;
 				INFOPLIST_FILE = EggTimer/Info.plist;
