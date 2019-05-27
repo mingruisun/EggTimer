@@ -15,6 +15,7 @@
 		0042C81B2272A50D0010E259 /* EggTimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0042C81A2272A50D0010E259 /* EggTimerUITests.swift */; };
 		007457B022920475006A91EF /* PrefsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007457AF22920475006A91EF /* PrefsViewController.swift */; };
 		007457B622921839006A91EF /* EggTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007457B522921839006A91EF /* EggTimer.swift */; };
+		007457B8229C7C3F006A91EF /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007457B7229C7C3F006A91EF /* Preferences.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		007457AF22920475006A91EF /* PrefsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefsViewController.swift; sourceTree = "<group>"; };
 		007457B1229214DE006A91EF /* EggTimer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EggTimer.entitlements; sourceTree = "<group>"; };
 		007457B522921839006A91EF /* EggTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggTimer.swift; sourceTree = "<group>"; };
+		007457B7229C7C3F006A91EF /* Preferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				007457B522921839006A91EF /* EggTimer.swift */,
+				007457B7229C7C3F006A91EF /* Preferences.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -297,6 +300,7 @@
 			files = (
 				0042C8002272A50D0010E259 /* ViewController.swift in Sources */,
 				007457B622921839006A91EF /* EggTimer.swift in Sources */,
+				007457B8229C7C3F006A91EF /* Preferences.swift in Sources */,
 				007457B022920475006A91EF /* PrefsViewController.swift in Sources */,
 				0042C7FE2272A50D0010E259 /* AppDelegate.swift in Sources */,
 			);
